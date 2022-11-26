@@ -903,7 +903,7 @@ local function createBox(option, parent)
         Size = UDim2.new(1, -12, 1, -10),
         BackgroundTransparency = 1,
         Image = "rbxassetid://3570695787",
-        ImageColor3 = Color3.fromRGB(60, 60, 60),
+        ImageColor3 = Color3.fromRGB(10, 10, 10),
         ScaleType = Enum.ScaleType.Slice,
         SliceCenter = Rect.new(100, 100, 100, 100),
         SliceScale = 0.02,
@@ -1463,8 +1463,8 @@ local function createDivider(option, parent, holder)
         Position = UDim2.fromScale(0.5, 0.5),
 
         BorderSizePixel = 0,
-        BorderColor3 = Color3.fromRGB(255, 255, 255),
-        BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+        BorderColor3 = Color3.fromRGB(50, 50, 50),
+        BackgroundColor3 = Color3.fromRGB(50, 50, 50),
 
         Size = UDim2.new(1, -10, 0, 2),
         Parent = option.main,
