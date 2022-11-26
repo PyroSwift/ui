@@ -1463,8 +1463,8 @@ local function createDivider(option, parent, holder)
         Position = UDim2.fromScale(0.5, 0.5),
 
         BorderSizePixel = 0,
-        BorderColor3 = Color3.fromRGB(255, 0, 0),
-        BackgroundColor3 = Color3.fromRGB(255, 0, 0),
+        BorderColor3 = Color3.fromRGB(255, 255, 255),
+        BackgroundColor3 = Color3.fromRGB(255, 255, 255),
 
         Size = UDim2.new(1, -10, 0, 2),
         Parent = option.main,
